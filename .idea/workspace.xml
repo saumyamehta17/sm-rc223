@@ -26,7 +26,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="0" selection-end="255" vertical-scroll-proportion="0.49141964" vertical-offset="0" max-vertical-offset="641">
+            <state line="31" column="19" selection-start="599" selection-end="599" vertical-scroll-proportion="0.725429" vertical-offset="0" max-vertical-offset="641">
               <folding />
             </state>
           </provider>
@@ -293,7 +293,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sm-rc209" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
   </component>
@@ -724,7 +724,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="0" selection-end="255" vertical-scroll-proportion="0.49141964" vertical-offset="0" max-vertical-offset="641">
+        <state line="31" column="19" selection-start="599" selection-end="599" vertical-scroll-proportion="0.725429" vertical-offset="0" max-vertical-offset="641">
           <folding />
         </state>
       </provider>
