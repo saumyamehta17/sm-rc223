@@ -32,4 +32,3 @@ changes in application.js
 //= require raphael
 //= require morris
 ```
-

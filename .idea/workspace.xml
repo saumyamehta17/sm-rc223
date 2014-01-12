@@ -23,22 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="0" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="615">
+            <state line="21" column="4" selection-start="0" selection-end="255" vertical-scroll-proportion="0.49141964" vertical-offset="0" max-vertical-offset="641">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="35" column="0" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,10 +98,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="orders.js.coffee" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="orders.js.coffee" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/orders.js.coffee">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="214" selection-end="534" vertical-scroll-proportion="0.37441498" vertical-offset="0" max-vertical-offset="641">
+            <state line="16" column="0" selection-start="214" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -134,12 +132,13 @@
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/orders/_form.html.erb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/controllers/orders_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/orders/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/orders.js.coffee" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -672,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="0" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/orders_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="67" selection-start="232" selection-end="232" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1200">
@@ -700,13 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="476" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="855">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641">
@@ -718,7 +703,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/orders.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="214" selection-end="534" vertical-scroll-proportion="0.37441498" vertical-offset="0" max-vertical-offset="641">
+        <state line="16" column="0" selection-start="214" selection-end="534" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="697" selection-end="697" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="476" selection-end="512" vertical-scroll-proportion="0.0" vertical-offset="188" max-vertical-offset="855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="4" selection-start="0" selection-end="255" vertical-scroll-proportion="0.49141964" vertical-offset="0" max-vertical-offset="641">
           <folding />
         </state>
       </provider>
