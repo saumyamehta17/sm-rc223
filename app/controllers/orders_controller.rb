@@ -1,10 +1,13 @@
 class OrdersController < ApplicationController
   before_action :set_order, only: [:show, :edit, :update, :destroy]
-
+  #making available methods to  views , make them as helper method
+  helper_method :sort_column, :direction_column
   # GET /orders
   # GET /orders.json
   def index
-    @orders = Order.paginate(:page => params[:page], :per_page => 5)
+      #@orders = Order.order(sort_column + " " + direction_column).paginate(:page => params[:page], :per_page => 5)
+      #search, sort, pagination
+      @orders = Order.search(params[:search]).order(sort_column + " " + direction_column).paginate(:page => params[:page], :per_page => 5)
   end
 
   # GET /orders/1
@@ -62,6 +65,18 @@ class OrdersController < ApplicationController
   end
 
   private
+    #multiple usage
+    def sort_column
+      #params[:sort] ||= 'name'
+      #Now to save from sql injection use below one
+      Order.column_names.include?(params[:sort]) ? params[:sort] : "Number"
+    end
+
+    def direction_column
+      #params[:direction] ||= 'asc'
+      #Now to save from sql injection use below one
+      %w[asc desc].include?(params[:direction]) ? params[:direction] : "asc"
+    end
     # Use callbacks to share common setup or constraints between actions.
     def set_order
       @order = Order.find(params[:id])
@@ -69,6 +84,6 @@ class OrdersController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def order_params
-      params.require(:order).permit(:number, :purchased, :shipping, :price)
+      params.require(:order).permit(:number, :purchased, :shipping, :price, :name)
     end
 end

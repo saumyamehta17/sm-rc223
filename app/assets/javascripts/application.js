@@ -17,3 +17,12 @@
 //= require raphael
 //= require morris
 //= require_tree .
+
+$(function(){
+    $('.order th a,.order .pagination a').on("click",function(){
+        $('.order .pagination').html("Page is loading")
+//        alert(this.href);
+        $.getScript(this.href);
+        return false;
+    });
+});

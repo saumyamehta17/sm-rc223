@@ -5,7 +5,7 @@ class CreateOrders < ActiveRecord::Migration
       t.datetime :purchased
       t.boolean :shipping
       t.integer :price
-
+      t.string :name
       t.timestamps
     end
   end

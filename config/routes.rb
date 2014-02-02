@@ -1,4 +1,6 @@
 SmRc223::Application.routes.draw do
-  resources :orders
+  resources :orders do
+    resources :addresses
+  end
   root 'orders#index'
 end

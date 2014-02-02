@@ -1,5 +1,5 @@
-Railscast sm-rc223
-===================
+Railscast sm-rc223 and 228 and 240
+===================================
 
 
 git clone
@@ -32,3 +32,34 @@ changes in application.js
 //= require raphael
 //= require morris
 ```
+
+Railscast 228
+------------------
+sortable columns
+```
+sorting on any column
+```
+see sortable method in helper.rb for order
+uses helper_method defined in ordercontroller in helper.rb
+```
+
+Railscast 240
+-------------------
+Now if want to have sort, search and pagination at same time
+```
+Run Rails server
+But till this point nothing is persistence as search will lost as soon as we sort
+```
+When search is clicked it loses sort_column and direction
+```
+so need to pass sort_column and direction as hidden field
+```
+Now through ajax
+```
+```
+see application.js
+ajaxify pagination and column_name
+created index.js.erb
+````
+    
+    

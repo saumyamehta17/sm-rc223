@@ -11,3 +11,10 @@
  *= require_self
  *= require_tree .
  */
+.a:link {
+    background-color: transparent !important;
+}
+
+.arrow_asc{
+    background-image: url(/images/up_arrow.jpg);
+}

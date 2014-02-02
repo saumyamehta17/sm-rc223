@@ -4,14 +4,14 @@
 
   jQuery ->
     Morris.Bar
-      element: "order_chart"
-          data: [
-                  {y: '2010', a: '12'}
-                  {y: '2034', a: '78'}
-                  {y: '2023', a: '90'}
-                  {y: '2012', a: '23'}
-                ]
-          xkey: 'y'
-          ykeys: ['a']
-          labels: ['Series A']
-
+#      element: "order_chart"
+#          data: [
+#                  {y: '2010', a: '12'}
+#                  {y: '2034', a: '78'}
+#                  {y: '2023', a: '90'}
+#                  {y: '2012', a: '23'}
+#                ]
+#          xkey: 'y'
+#          ykeys: ['a']
+#          labels: ['Series A']
+#
